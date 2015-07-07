@@ -1,0 +1,22 @@
+{
+    "name": "presprog/autocompleteext",
+    "type": "contao-module",
+    "description": "This extension add jquery.autocomplete.js by DevBridge to Contao. After install, simply add the j_autocomplete template in your theme. You may need do adjust the service url defined in j_autocomplete.html5. ",
+    "license": "LGPL-3.0+",
+    "authors": [
+    {
+        "name": "Benedict Zinke . present progressive",
+        "email": "bz@presentprogressive.de"
+    }],
+    "requires": [
+    {
+      "leounglaub/contao-simple-ajax": "3.2.x-dev"
+    }],
+    "extra": {
+        "contao": {
+            "sources": {
+                "src": "system/modules/AutoCompleteExt"
+            }
+        }
+    }
+}

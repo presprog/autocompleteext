@@ -1,0 +1,21 @@
+<?php
+
+// Add the autocomplete style sheet
+$GLOBALS['TL_CSS'][] = 'system/modules/AutoCompleteExt/assets/jquery/autocomplete/'. AUTOCOMPLETE .'/autocomplete.css||static';
+
+?>
+
+<script src="system/modules/AutoCompleteExt/assets/jquery/autocomplete/<?= AUTOCOMPLETE ?>/jquery.autocomplete.min.js"></script>
+<script>
+    (function($) {
+        $(document).ready(function() {
+            $('.js-autocomplete').each(function(){
+                $(this).autocomplete({
+                    serviceUrl: 'simpleAjax.php?mode=ac&acid=' + $(this).attr('id'),
+                    minChars: 3,
+                    lookupLimit: 10
+                });
+            });
+        });
+    })(jQuery);
+</script>
