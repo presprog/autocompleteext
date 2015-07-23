@@ -1,11 +1,11 @@
 {
-    "name": "presprog/autocompleteext",
+    "name": "presprog/contao-autocomplete",
     "type": "contao-module",
-    "description": "This extension add jquery.autocomplete.js by DevBridge to Contao. After install, simply add the j_autocomplete template in your theme. You may need do adjust the service url defined in j_autocomplete.html5. ",
+    "description": "This extension adds jquery.autocomplete.js by DevBridge to Contao. After install, simply add the j_autocomplete template in your theme. You may need do adjust the service url defined in j_autocomplete.html5. ",
     "license": "LGPL-3.0+",
     "authors": [
     {
-        "name": "Benedict Zinke . present progressive",
+        "name": "Benedict Zinke . Present Progressive",
         "email": "bz@presentprogressive.de"
     }],
     "requires": [
